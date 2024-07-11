@@ -1,0 +1,32 @@
+# Environment variables
+.env
+
+# Python artifacts
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.sqlite3
+
+# Logs
+*.log
+
+# Virtual environment
+venv/
+env/
+ENV/
+env.bak/
+*.swp
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Firefox and Geckodriver specific
+geckodriver.log
+
+# Local driver (if you have it in a different directory, adjust accordingly)
+!geckodriver.exe
